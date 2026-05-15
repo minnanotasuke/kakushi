@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kakushi"
+version = "0.1.0"
+description = "Japanese PII masking for LLM pipelines"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "choudai" }]
+keywords = ["pii", "masking", "japanese", "llm", "privacy", "dlp"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Japanese",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Security",
+]
+dependencies = []
+
+[project.optional-dependencies]
+ner = ["ginza>=5.2.0", "ja-ginza>=5.2.0"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
+[project.urls]
+Homepage = "https://github.com/minnanotasuke/kakushi"
+Issues = "https://github.com/minnanotasuke/kakushi/issues"
+Demo = "https://huggingface.co/spaces/minnanotasuke/kakushi"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kakushi"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

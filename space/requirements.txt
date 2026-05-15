@@ -1,0 +1,2 @@
+git+https://github.com/minnanotasuke/kakushi.git@main#egg=kakushi[ner]
+gradio>=4.44.0
