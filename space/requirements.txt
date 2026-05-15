@@ -1,2 +1,3 @@
 kakushi[ner] @ git+https://github.com/minnanotasuke/kakushi.git@main
 gradio>=4.44.0
+audioop-lts; python_version >= "3.13"
