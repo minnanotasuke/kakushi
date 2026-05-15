@@ -2,7 +2,7 @@
 
 **Japanese PII masking for LLM pipelines.** Strip personal names, company names, phone numbers, emails, amounts, and my-numbers from Japanese business text before it leaves your server. Restore them in the model reply.
 
-[Live demo on HuggingFace Spaces](https://huggingface.co/spaces/minnanotasuke/kakushi) · [日本語の説明](README_ja.md)
+[Live demo on HuggingFace Spaces](https://huggingface.co/spaces/choudai/kakushi) · [日本語の説明](README_ja.md)
 
 ---
 
@@ -66,7 +66,7 @@ Reproduce with `python scripts/eval.py --n 100`.
 
 ## Try it without writing code
 
-The [HuggingFace Space](https://huggingface.co/spaces/minnanotasuke/kakushi) lets you paste any Japanese text, optionally provide a company dictionary, and see exactly what would be sent to the LLM. Nothing is logged.
+The [HuggingFace Space](https://huggingface.co/spaces/choudai/kakushi) lets you paste any Japanese text, optionally provide a company dictionary, and see exactly what would be sent to the LLM. Nothing is logged.
 
 ## Project layout
 

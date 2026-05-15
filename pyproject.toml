@@ -32,7 +32,7 @@ dev = ["pytest>=7.0", "pytest-cov>=4.0"]
 [project.urls]
 Homepage = "https://github.com/minnanotasuke/kakushi"
 Issues = "https://github.com/minnanotasuke/kakushi/issues"
-Demo = "https://huggingface.co/spaces/minnanotasuke/kakushi"
+Demo = "https://huggingface.co/spaces/choudai/kakushi"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/kakushi"]

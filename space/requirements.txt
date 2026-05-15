@@ -1,2 +1,2 @@
-git+https://github.com/minnanotasuke/kakushi.git@main#egg=kakushi[ner]
+kakushi[ner] @ git+https://github.com/minnanotasuke/kakushi.git@main
 gradio>=4.44.0

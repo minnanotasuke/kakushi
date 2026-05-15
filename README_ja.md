@@ -2,7 +2,7 @@
 
 **ChatGPT・Claude・Gemini に送る前の、日本語ビジネステキスト用 PII マスキング。** 個人名、社名、電話番号、メールアドレス、金額、マイナンバーを自動でマスクして、LLM の返答で原文に戻します。
 
-[ブラウザでデモを試す](https://huggingface.co/spaces/minnanotasuke/kakushi) · [English](README.md)
+[ブラウザでデモを試す](https://huggingface.co/spaces/choudai/kakushi) · [English](README.md)
 
 ---
 
@@ -66,7 +66,7 @@ pip install kakushi[ner]     # + GiNZA 日本語 NER (人名 / 組織 / 地名)
 
 ## コードを書かずに試す
 
-[HuggingFace Space](https://huggingface.co/spaces/minnanotasuke/kakushi) で、お手元の日本語テキストを貼り付けて、LLM に送られる形を直接確認できます。入力は保存されません。
+[HuggingFace Space](https://huggingface.co/spaces/choudai/kakushi) で、お手元の日本語テキストを貼り付けて、LLM に送られる形を直接確認できます。入力は保存されません。
 
 ## 想定読者
 
